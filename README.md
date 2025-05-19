@@ -24,6 +24,13 @@ By default, this action will automatically run every day
 You can modify it in `.github/workflows/run.yml`
 
 # Content
+
+<details>
+<summary>2025</summary>
+
+<details>
+<summary>&emsp;2025-05</summary>
+
 [2025-05-18](data/2025-05-18.md)
 
 [2025-05-17](data/2025-05-17.md)
@@ -59,6 +66,11 @@ You can modify it in `.github/workflows/run.yml`
 [2025-05-02](data/2025-05-02.md)
 
 [2025-05-01](data/2025-05-01.md)
+
+</details>
+
+<details>
+<summary>&emsp;2025-04</summary>
 
 [2025-04-30](data/2025-04-30.md)
 
@@ -118,6 +130,11 @@ You can modify it in `.github/workflows/run.yml`
 
 [2025-04-01](data/2025-04-01.md)
 
+</details>
+
+<details>
+<summary>&emsp;2025-03</summary>
+
 [2025-03-31](data/2025-03-31.md)
 
 [2025-03-30](data/2025-03-30.md)
@@ -145,6 +162,10 @@ You can modify it in `.github/workflows/run.yml`
 [2025-03-19](data/2025-03-19.md)
 
 [2025-03-18](data/2025-03-18.md)
+
+</details>
+
+</details>
 
 # Related tools
 - ICML, ICLR, NeurIPS list: https://dw-dengwei.github.io/OpenReview-paper-list/index.html
