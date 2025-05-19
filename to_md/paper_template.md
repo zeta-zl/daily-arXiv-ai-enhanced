@@ -1,13 +1,15 @@
 ### [{idx}] [{title}]({url})
 *{authors}*
 
+Key words:{keywords}
+
+<details>
+  <summary>Details</summary>
+
 Main category: {cate}
 
 TL;DR: {tldr}
 
-
-<details>
-  <summary>Details</summary>
 Motivation: {motivation}
 
 Method: {method}
