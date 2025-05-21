@@ -5,7 +5,9 @@ from itertools import count
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=str, help="Path to the jsonline file")
+    parser.add_argument("--data", type=str, help="Path to the jsonline file",
+                        default=r"E:\AAresearch\tools\daily-arXiv-ai-enhanced"
+                                r"\data\2025-05-20_AI_enhanced_Chinese.jsonl")
     args = parser.parse_args()
     data = []
     preference = os.environ.get('CATEGORIES', 'cs.CV, cs.CL').split(',')
@@ -41,7 +43,7 @@ if __name__ == "__main__":
             [
                 template.format(
                     title=item["title"],
-                    keywords=item.get("keywords"),
+                    keywords=item['AI'].get("keywords"),
                     authors=",".join(item["authors"]),
                     summary=item["summary"],
                     url=item['abs'],

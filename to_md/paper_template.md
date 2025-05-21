@@ -1,7 +1,7 @@
 ### [{idx}] [{title}]({url})
 *{authors}*
 
-Key words:{keywords}
+Key words: {keywords}
 
 <details>
   <summary>Details</summary>
