@@ -68,6 +68,7 @@ def main():
                  "motivation": "Error",
                  "method": "Error",
                  "result": "Error",
+                 "keywords": "Error",
                  "conclusion": "Error"
             }
         with open(args.data.replace('.jsonl', f'_AI_enhanced_{language}.jsonl'), "a") as f:

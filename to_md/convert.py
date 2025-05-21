@@ -41,7 +41,7 @@ if __name__ == "__main__":
             [
                 template.format(
                     title=item["title"],
-                    keywords=item['keywords'],
+                    keywords=item.get("keywords"),
                     authors=",".join(item["authors"]),
                     summary=item["summary"],
                     url=item['abs'],

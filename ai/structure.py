@@ -7,4 +7,4 @@ class Structure(BaseModel):
   method: str = Field(description="method of this paper")
   result: str = Field(description="result of this paper")
   conclusion: str = Field(description="conclusion of this paper")
-  keywords: List[str] = Field(description="key words of this paper")
+  keywords: str = Field(description="key words of this paper")
