@@ -31,6 +31,8 @@ You can modify it in `.github/workflows/run.yml`
 <details>
 <summary>&emsp;2025-05</summary>
 
+[2025-05-29](data/2025-05-29.md)
+
 [2025-05-28](data/2025-05-28.md)
 
 [2025-05-26](data/2025-05-26.md)
