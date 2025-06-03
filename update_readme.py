@@ -11,12 +11,15 @@ def fold_links_by_year_month(content):
     matches = re.findall(pattern, content)
 
     grouped = defaultdict(lambda: defaultdict(list))
+    today_line = None
     for y, m, d in matches:
         date_str = f"{y}-{m}-{d}"
         md_link = f"[{date_str}](data/{date_str}.md)"
         grouped[y][m].append(md_link)
+        if not today_line:
+            today_line = md_link
 
-    folded_md = "# Content\n\n"
+    folded_md = f"# Content\n\n{today_line}\n\n"
     for y in sorted(grouped.keys(), reverse=True):
         folded_md += f"<details>\n<summary>{y}</summary>\n\n"
         for m in sorted(grouped[y].keys(), reverse=True):

@@ -7,7 +7,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data", type=str, help="Path to the jsonline file",
                         default=r"E:\AAresearch\tools\daily-arXiv-ai-enhanced"
-                                r"\data\2025-05-20_AI_enhanced_Chinese.jsonl")
+                                r"\data\2025-06-02_AI_enhanced_Chinese.jsonl")
     args = parser.parse_args()
     data = []
     preference = os.environ.get('CATEGORIES', 'cs.CV, cs.CL').split(',')
@@ -58,5 +58,5 @@ if __name__ == "__main__":
                 for item in data if item["categories"][0] == cate
             ]
         )
-    with open(args.data.split('_')[0] + '.md', "w") as f:
+    with open(args.data.split('_')[0] + '.md', "w", encoding='utf-8') as f:
         f.write(markdown)

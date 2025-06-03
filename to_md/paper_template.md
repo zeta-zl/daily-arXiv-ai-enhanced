@@ -3,12 +3,12 @@
 
 Key words: {keywords}
 
+TL;DR: {tldr}
+
 <details>
   <summary>Details</summary>
 
 Main category: {cate}
-
-TL;DR: {tldr}
 
 Motivation: {motivation}
 
