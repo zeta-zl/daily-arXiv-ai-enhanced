@@ -3,13 +3,15 @@ This tool will daily crawl https://arxiv.org and use LLMs to summarize them.
 
 # Content
 
-[2025-07-06](data/2025-07-06.md)
+[2025-07-07](data/2025-07-07.md)
 
 <details>
 <summary>2025</summary>
 
 <details>
 <summary>&emsp;2025-07</summary>
+
+[2025-07-07](data/2025-07-07.md)
 
 [2025-07-06](data/2025-07-06.md)
 
